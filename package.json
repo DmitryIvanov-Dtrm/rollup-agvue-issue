@@ -1,0 +1,45 @@
+{
+  "name": "rollup-agvue-issue",
+  "description": "Rollup ag-grid-vue issue",
+  "version": "0.0.0",
+  "author": "Dmitry Ivanov <DIvanov@corcentric.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/repository.git"
+  },
+  "bugs": {
+    "url": "https://github.com/corp/repo/issues"
+  },
+  "homepage": "https://github.com/corp/repo#readme",
+  "keywords": [
+    "vue",
+    "ag-grid-vue",
+    "rollup"
+  ],
+  "scripts": {
+    "build": "rollup -c ./rollup.config.js",
+    "dev": "rollup -c ./rollup.config.js -w",
+    "serve": "npx http-server ./demo"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.0",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-replace": "^2.3.1",
+    "@vue/babel-preset-app": "^4.2.3",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "rollup": "^2.2.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-vue": "^5.1.6",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "@ag-grid-community/all-modules": "^23.0.2",
+    "@ag-grid-community/vue": "^23.0.2",
+    "vue": "^2.6.11"
+  }
+}
